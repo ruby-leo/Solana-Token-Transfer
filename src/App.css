@@ -27,7 +27,46 @@
 .App-link {
   color: #61dafb;
 }
+.btnActive{
+  background-color: white;
+  padding: 16px 10px;
+  background-color: rgb(123, 37, 192);
+  font-size: medium;
+  font-weight: 600;
+  font-family: sans-serif;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+  min-width: 280px;
+  color: rgb(203, 203, 203);
+}
 
+.btnNotActive{
+  background-color: white;
+  padding: 16px 10px;
+  background-color: grey;
+  font-size: medium;
+  font-weight: 800;
+  font-family: sans-serif;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+  min-width: 280px;
+  cursor: not-allowed;
+  color: #264d73
+}
+.msg{
+  font-size: medium;
+  font-weight: 500;
+  font-family: sans-serif;
+  color: #6699cc;
+}
+.msgTitle{
+  font-size: 1.1em;
+  font-weight: bold;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
