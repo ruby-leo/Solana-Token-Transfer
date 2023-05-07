@@ -1,5 +1,4 @@
 import { Keypair, LAMPORTS_PER_SOL, PublicKey } from "@solana/web3.js";
-import { useState } from "react";
 
 type Props = {
     connection: any;

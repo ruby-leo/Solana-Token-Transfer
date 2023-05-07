@@ -44,8 +44,7 @@ function TransferToPhantomWallet({ connection, isPhantomConnected, sender, walle
         <div>
             {isPhantomConnected && !airdropDone && 
                 <button 
-                className="btnNotActive"
-                onClick={transferToPhantomWallet}>
+                className="btnNotActive">
                 Transfer to Phantom Wallet
                 </button>
             }
